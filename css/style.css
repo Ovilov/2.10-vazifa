@@ -1,0 +1,256 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html , body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    color: #7A7A7A;
+    font-family: 'Commissioner';
+    line-height: 30px;
+    background: #FAFAFA;
+}
+a {
+    text-decoration: none;
+}
+ul ,ol {
+    list-style: none;
+}
+img {
+    object-fit: cover;
+    display: flex;
+}
+h1 {
+    margin: 0%;
+}
+.container {
+    width: 100%;
+    max-width: 1207px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.header {
+    height: 400px;
+    background-image: url("../images/png/work-table.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-container-wrapper {
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
+
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-bottom: 60px;
+}
+.sitenav-list {
+    display: flex;
+    gap: 32px;
+}
+.sitenav-link {
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+}
+.sitenav-link:hover {
+    text-decoration: underline;
+}
+.main-container {
+    width: 100%;
+    max-width: 730px;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -92px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding-bottom: 50px;
+}
+.main-img-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: -28px;
+    margin-bottom: 28px;
+}
+.main-title {
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.text {
+    margin-bottom: 40px;
+}
+
+.button {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.left {
+    
+}
+.left-link {
+    color: #fff;
+    width: 204px;
+    height: 56px;
+    font-weight: 700;
+    background-color:#3CB3AB;
+    padding: 18px 40px;
+    border-radius: 33.5px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.left-link:hover {
+    background: #147A73;
+}
+.right-link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 174px;
+    height: 56px;
+    border-radius: 33.5px;
+    background: #FAFAFA;
+    color: #7A7A7A;
+    font-weight: 700;
+}
+.right-link:hover {
+    /* opacity: 0.05; */
+    background: #d4d2d2;
+}
+.number {
+    margin-top: 100px;
+}
+.number-list {
+    display: flex;
+    gap: 23px;
+    padding-top: 50px;
+}
+.number-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+}
+.hr {
+    width: 1px;
+    height: 63px;
+    opacity: 0.15;
+    background: #000;
+    margin: 0 43px 23px;
+}
+.line {
+    padding-top: 40px;
+}
+.left-line {
+    width: 496px;
+    height: 12px;
+    border-radius: 33.5px;
+    background: #3CB3AB;
+}
+.right-line {
+    width: 634px;
+    height: 12px;
+    border-radius: 33.5px;
+    opacity: 0.05;
+    background: #2F2F2F;
+    margin-top: -12px;
+}
+.cards-section {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-top: 50px;
+}
+.cards-title {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.cards-text {
+    text-align: start;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+.card {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 32px;
+    margin-bottom: 24px;
+}
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+.sum {
+    color: #3CB3AB;
+    font-size: 15px;
+    font-weight: 500;
+}
+.card-text {
+    text-align: start;
+    line-height: 30px;
+}
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    align-items:center;
+}
+.card-number {
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    align-items:center;
+    gap: 8px;
+}
+span {
+    color: #7A7A7A;
+    font-size: 15px;
+    font-weight: 400;
+}
+.reward-link {
+    width: 157px;
+    height: 48px;
+    border-radius: 33.5px;
+    background: #3CB3AB;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.reward-link:hover {
+    background: #147A73;
+}
+.card-end {
+    opacity: 0.5;
+}
+.link-end {
+    background-color:#000;
+    opacity: 0.5;
+}
+.place {
+    height: 124px;
+}
